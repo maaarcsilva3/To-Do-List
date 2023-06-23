@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+    <!-- js function -->
+    <script src="index.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    
+    <!-- sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/ba47bc794b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="title">
+            <i id="barIcn" class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+            <p id="titleText" >Simple To-Do List</p>
+            
+        </div>
+        <div class="container">
+
+            <div class="input">
+            
+                <form id="myForm" action="">
+                    <input type="text" id="inputTask" name="task" placeholder="Type here" >
+                    <button id="submitBtn" type="submit" value="Submit" > Submit </button>
+                </form> 
+
+            </div>
+            <div class="list">
+                <ul id="taskList"></ul>
+            </div>
+        </div>
+    </div>
+</body> 
+</html>

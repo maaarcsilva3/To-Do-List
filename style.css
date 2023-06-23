@@ -1,0 +1,106 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@1;300&display=swap');
+
+body {
+    background-color: #E3E9FF;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white;
+}
+
+.wrapper {
+    margin-top: 200px;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    background-color: #AF7EEB;
+    border: 1px solid;
+    width: auto;
+    height: auto;
+    text-align: center;
+    /* padding: 5px; */
+    gap: 10px;
+    
+}
+
+#titleText{
+    font-size: 40px;
+    font-family: 'Ysabeau Office', sans-serif;
+    margin-left: 68px;
+}
+  
+.container {
+    background-color: #FFFFFF;
+    border: 1px solid;
+    margin-top: 20px;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+  
+
+.listItem {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#barIcn{
+    margin-top: 5px;
+    margin-left: 13px;
+
+}
+
+li{
+    margin-top: 5px;
+    color: #5b637e;
+}
+
+button{
+    background-color: #c7a7ee;
+    border: 0px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+#submitBtn {
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 15px;
+    font-weight:500;
+
+}
+
+#editBtn{
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    /* border-radius: 5px; */
+    justify-content: right;
+    margin-left: 3px;
+}
+#deleteBtn{
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 15px;
+    font-weight:500;
+    /* border-radius: 5px; */
+    justify-content: right;
+    margin-left: 3px;
+}
+#doneBtn{
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 15px;
+    font-weight:500;
+    /* border-radius: 5px; */
+    justify-content: right;
+    margin-left: 3px;
+}
+
+#inputTask {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #AF7EEB;
+}
